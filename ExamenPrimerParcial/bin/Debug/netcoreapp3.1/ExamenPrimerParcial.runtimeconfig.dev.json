@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/Geam/.dotnet/store/|arch|/|tfm|",
+      "/Users/Geam/.nuget/packages"
+    ]
+  }
+}

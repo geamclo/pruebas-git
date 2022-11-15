@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{3B49A37D-C4A5-4106-AE91-8D921CF91A56}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Auto.cs">
+    <Files>
+      <File FileName="Auto.cs" Line="34" Column="2" />
+      <File FileName="Camioneta.cs" Line="1" Column="1" />
+      <File FileName="Furgoneta.cs" Line="1" Column="1" />
+      <File FileName="ICalculardor.cs" Line="1" Column="1" />
+      <File FileName="Program.cs" Line="1" Column="1" />
+      <File FileName="Vehiculo.cs" Line="20" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ExamenPrimerParcial" expanded="True">
+            <Node name="ExamenPrimerParcial" expanded="True">
+              <Node name="Auto.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ExamenPrimerParcial PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
