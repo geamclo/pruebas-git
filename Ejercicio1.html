@@ -1,0 +1,40 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>Ejercicio1.java</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<style type="text/css">
+<!--
+body {color: #000000; background-color: #ffffff; font-family: Monospaced}
+pre {color: #000000; background-color: #ffffff; font-family: Monospaced}
+table {color: #000000; background-color: #e9e8e2; font-family: Monospaced}
+.ST0 {font-family: Monospaced; font-weight: bold}
+.ST1 {font-family: Monospaced; font-weight: bold; font-style: italic}
+.ST2 {color: #009900; font-family: Monospaced; font-style: italic}
+.ST4 {font-family: Monospaced; font-style: italic}
+.literal {color: #0000e6}
+.ST3 {color: #ce7b00; font-family: Monospaced; font-weight: bold}
+.string {color: #ce7b00}
+-->
+</style>
+</head>
+<body>
+<table width="100%"><tr><td align="center">/Users/geam/NetBeansProjects/Ejercicios Ing Software/src/Ejercicio1.java</td></tr></table>
+<pre>
+ 1 <span class="literal">import</span> java.util.Scanner;
+ 2 <span class="literal">public</span> <span class="literal">class</span> <span class="ST0">Ejercicio1</span> {
+ 3   <span class="literal">public</span> <span class="literal">static</span> <span class="literal">void</span> <span class="ST1">main</span>(String[] args) {
+ 4     Scanner scanner = <span class="literal">new</span> Scanner(System.<span class="ST2">in</span>);
+ 5     <span class="literal">double</span> base;
+ 6     <span class="literal">double</span> altura;
+ 7     <span class="literal">double</span> hipotenusa;
+ 8     System.<span class="ST2">out</span>.print(<span class="string">&quot;</span><span class="string">Ingrese el valor de la </span><span class="ST3">\&quot;</span><span class="string">base</span><span class="ST3">\&quot;</span><span class="string"> del triángulo rectángulo: </span><span class="string">&quot;</span>);
+ 9       base = scanner.nextDouble();
+10     System.<span class="ST2">out</span>.print(<span class="string">&quot;</span><span class="string">Ingrese el valor de la </span><span class="ST3">\&quot;</span><span class="string">altura</span><span class="ST3">\&quot;</span><span class="string"> del triángulo rectángulo: </span><span class="string">&quot;</span>);
+11       altura = scanner.nextDouble();
+12       hipotenusa = Math.<span class="ST4">sqrt</span>(Math.<span class="ST4">pow</span>(base,2) + Math.<span class="ST4">pow</span>(altura,2));
+13     System.<span class="ST2">out</span>.println(<span class="string">&quot;</span><span class="string">El área de este triángulo rectángulo es: </span><span class="string">&quot;</span> +hipotenusa);
+14   }
+15 }
+</pre></body>
+</html>
